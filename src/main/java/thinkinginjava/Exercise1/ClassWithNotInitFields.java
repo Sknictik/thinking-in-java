@@ -1,4 +1,4 @@
-package foo.Exercise1;
+package thinkinginjava.Exercise1;
 
 public class ClassWithNotInitFields {
 

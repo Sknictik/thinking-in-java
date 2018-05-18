@@ -1,8 +1,8 @@
-package foo;
+package thinkinginjava;
 
 import java.util.Scanner;
 
-import foo.Exercise1.ClassWithNotInitFields;
+import thinkinginjava.Exercise1.ClassWithNotInitFields;
 
 public class Main {
 
