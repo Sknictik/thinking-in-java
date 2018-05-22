@@ -12,6 +12,7 @@ import thinkinginjava.exercise5.DataOnlyModifiedExercise;
 import thinkinginjava.exercise6.StorageMethodExercise;
 import thinkinginjava.exercise7.IncrementableExercise;
 import thinkinginjava.exercise8.SingleStaticFieldExercise;
+import thinkinginjava.exercise9.AutoboxingExercise;
 
 public class Main {
 
@@ -27,6 +28,7 @@ public class Main {
         exerciseList.add(new StorageMethodExercise());
         exerciseList.add(new IncrementableExercise());
         exerciseList.add(new SingleStaticFieldExercise());
+        exerciseList.add(new AutoboxingExercise());
     }
 
     public static void main(String[] args) {
