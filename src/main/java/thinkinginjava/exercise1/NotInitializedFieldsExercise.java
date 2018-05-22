@@ -2,7 +2,7 @@ package thinkinginjava.exercise1;
 
 import thinkinginjava.Exercise;
 
-public class Exercise1 extends Exercise {
+public class NotInitializedFieldsExercise extends Exercise {
 
     @Override
     public String getId() {

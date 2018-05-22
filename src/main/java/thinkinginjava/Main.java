@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import thinkinginjava.exercise1.Exercise1;
+import thinkinginjava.exercise1.NotInitializedFieldsExercise;
+import thinkinginjava.exercise2.HelloWorldExercise;
+import thinkinginjava.exercise3.ATypeNameExercise;
 
 public class Main {
 
@@ -12,7 +14,9 @@ public class Main {
 
     static {
         exerciseList = new ArrayList<>();
-        exerciseList.add(new Exercise1());
+        exerciseList.add(new NotInitializedFieldsExercise());
+        exerciseList.add(new HelloWorldExercise());
+        exerciseList.add(new ATypeNameExercise());
     }
 
     public static void main(String[] args) {
@@ -22,8 +26,7 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
         String exerciseCode = scan.next();
-
-        System.out.print("\n\n\n\n\n\n\n\n\n\n");
+        System.out.print("\n\n\n\n\n\n\n");
 
         runExercise(exerciseCode);
     }
@@ -36,7 +39,7 @@ public class Main {
             System.out.println("Name: " + exercise.getName());
             System.out.println("Difficulty: " + exercise.getDifficulty());
             System.out.println("Description: " + exercise.getDescription());
-            System.out.println("----------------------------------------------------------------------------");
+            System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
         }
     }
 
