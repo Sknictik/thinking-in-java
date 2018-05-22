@@ -11,6 +11,7 @@ import thinkinginjava.exercise12.JavaDocExercise;
 import thinkinginjava.exercise13.JavaDocContinuedExercise;
 import thinkinginjava.exercise14.JavaDocContinuedHtmlListExercise;
 import thinkinginjava.exercise15.Exercise2JavaDocExercise;
+import thinkinginjava.exercise16.OverloadingJavaDocExercise;
 import thinkinginjava.exercise2.HelloWorldExercise;
 import thinkinginjava.exercise3.ATypeNameExercise;
 import thinkinginjava.exercise4.DataOnlyExercise;
@@ -55,6 +56,7 @@ public class Main {
         exerciseList.add(new JavaDocContinuedExercise());
         exerciseList.add(new JavaDocContinuedHtmlListExercise());
         exerciseList.add(new Exercise2JavaDocExercise());
+        exerciseList.add(new OverloadingJavaDocExercise());
     }
 
     private static void printExercisesDescriptions() {
