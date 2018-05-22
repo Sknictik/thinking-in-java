@@ -11,6 +11,7 @@ import thinkinginjava.exercise4.DataOnlyExercise;
 import thinkinginjava.exercise5.DataOnlyModifiedExercise;
 import thinkinginjava.exercise6.StorageMethodExercise;
 import thinkinginjava.exercise7.IncrementableExercise;
+import thinkinginjava.exercise8.SingleStaticFieldExercise;
 
 public class Main {
 
@@ -25,6 +26,7 @@ public class Main {
         exerciseList.add(new DataOnlyModifiedExercise());
         exerciseList.add(new StorageMethodExercise());
         exerciseList.add(new IncrementableExercise());
+        exerciseList.add(new SingleStaticFieldExercise());
     }
 
     public static void main(String[] args) {

@@ -12,7 +12,7 @@ public abstract class Exercise {
     public abstract int getDifficulty();
 
     public final void executeCommand() {
-        System.out.println("Starting running command...\n");
+        System.out.println("Starting command...\n");
         run();
         System.out.println("\nCommand finished executing");
     }
