@@ -1,5 +1,7 @@
 package thinkinginjava.exercise6;
 
+import java.util.Scanner;
+
 import thinkinginjava.Exercise;
 
 public class StorageMethodExercise extends Exercise {
@@ -26,7 +28,9 @@ public class StorageMethodExercise extends Exercise {
     @Override
     protected void run() {
         StorageMethod methodClass = new StorageMethod();
-        String stringToStore = "1123";
-        System.out.println(stringToStore + " requires storage of size " + methodClass.storage(stringToStore));
+        System.out.print("Enter a string to calculate storage for: ");
+        Scanner scan = new Scanner(System.in);
+        String stringToStore = scan.next();
+        System.out.println("String \"" + stringToStore + "\" requires storage of size " + methodClass.storage(stringToStore));
     }
 }
