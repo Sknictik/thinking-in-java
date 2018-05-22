@@ -7,6 +7,9 @@ import java.util.Scanner;
 import thinkinginjava.exercise1.NotInitializedFieldsExercise;
 import thinkinginjava.exercise2.HelloWorldExercise;
 import thinkinginjava.exercise3.ATypeNameExercise;
+import thinkinginjava.exercise4.DataOnlyExercise;
+import thinkinginjava.exercise5.DataOnlyModifiedExercise;
+import thinkinginjava.exercise6.StorageMethodExercise;
 
 public class Main {
 
@@ -17,6 +20,9 @@ public class Main {
         exerciseList.add(new NotInitializedFieldsExercise());
         exerciseList.add(new HelloWorldExercise());
         exerciseList.add(new ATypeNameExercise());
+        exerciseList.add(new DataOnlyExercise());
+        exerciseList.add(new DataOnlyModifiedExercise());
+        exerciseList.add(new StorageMethodExercise());
     }
 
     public static void main(String[] args) {
@@ -32,17 +38,25 @@ public class Main {
     }
 
     private static void printExercisesDescriptions() {
-        System.out.println("Please select a routine from the list to run: \n");
-
         for (Exercise exercise : exerciseList) {
             System.out.println("Id: " + exercise.getId());
             System.out.println("Name: " + exercise.getName());
-            System.out.println("Difficulty: " + exercise.getDifficulty());
+            System.out.println("Difficulty: " + getExerciseDifficulty(exercise));
             System.out.println("Description: " + exercise.getDescription());
-            System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
+            System.out.println("--------------------------------------------------------------------" +
+                    "-------------------------------------------------------------------------------" +
+                    "----------");
         }
     }
 
+    private static int getExerciseDifficulty(Exercise exercise) {
+        int difficulty = exercise.getDifficulty();
+        if (difficulty >= 0 && difficulty <= 10) {
+            return difficulty;
+        }
+
+        throw new RuntimeException("Invalid difficulty value " + difficulty + " . Must be from 1 to 10");
+    }
 
     private static void runExercise(String exerciseId) {
         for (Exercise exercise : exerciseList) {
