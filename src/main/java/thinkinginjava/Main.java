@@ -1,37 +1,55 @@
 package thinkinginjava;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
-import thinkinginjava.Exercise1.ClassWithNotInitFields;
+import thinkinginjava.exercise1.Exercise1;
 
 public class Main {
 
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Please select a routine from the list to run:");
-        System.out.println("1.1 \n (2) Create a class containing an int and a char that are not initialized, " +
-                "and print their values to verify that Java performs default initialization.");
-        String exerciseCode = scan.next();
+    private static List<Exercise> exerciseList;
 
-        runExersise(exerciseCode);
+    static {
+        exerciseList = new ArrayList<>();
+        exerciseList.add(new Exercise1());
     }
 
-    private static void runExersise(String exerciseId) {
-        switch (exerciseId) {
-            case "1.1": {
-                runExercise1_1();
-                break;
-            }
-            default: {
-                System.out.println("No exercise found with such id");
-            }
+    public static void main(String[] args) {
+        printExercisesDescriptions();
+
+        System.out.print("\nPlease enter an id of exercise to run: ");
+
+        Scanner scan = new Scanner(System.in);
+        String exerciseCode = scan.next();
+
+        System.out.print("\n\n\n\n\n\n\n\n\n\n");
+
+        runExercise(exerciseCode);
+    }
+
+    private static void printExercisesDescriptions() {
+        System.out.println("Please select a routine from the list to run: \n");
+
+        for (Exercise exercise : exerciseList) {
+            System.out.println("Id: " + exercise.getId());
+            System.out.println("Name: " + exercise.getName());
+            System.out.println("Difficulty: " + exercise.getDifficulty());
+            System.out.println("Description: " + exercise.getDescription());
+            System.out.println("----------------------------------------------------------------------------");
         }
     }
 
-    private static void runExercise1_1() {
-        ClassWithNotInitFields classWithNotInitFields = new ClassWithNotInitFields();
-        System.out.println("Char: " + classWithNotInitFields.notInitializedChar);
-        System.out.println("Int: " + classWithNotInitFields.notInitializedInt);
+
+    private static void runExercise(String exerciseId) {
+        for (Exercise exercise : exerciseList) {
+            if (exercise.getId().equals(exerciseId)) {
+                exercise.executeCommand();
+                return;
+            }
+        }
+
+        System.out.println("No exercise found with provided id");
     }
 
 }
