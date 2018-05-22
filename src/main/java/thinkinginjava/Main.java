@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 import thinkinginjava.exercise1.NotInitializedFieldsExercise;
+import thinkinginjava.exercise10.CommandLineArgumentsExercise;
 import thinkinginjava.exercise2.HelloWorldExercise;
 import thinkinginjava.exercise3.ATypeNameExercise;
 import thinkinginjava.exercise4.DataOnlyExercise;
@@ -18,7 +19,21 @@ public class Main {
 
     private static List<Exercise> exerciseList;
 
-    static {
+    public static void main(String[] args) {
+        initExercises(args);
+
+        printExercisesDescriptions();
+
+        System.out.print("\nPlease enter an id of exercise to run: ");
+
+        Scanner scan = new Scanner(System.in);
+        String exerciseCode = scan.next();
+        System.out.print("\n\n\n\n\n\n\n");
+
+        runExercise(exerciseCode);
+    }
+
+    private static void initExercises(String[] args) {
         exerciseList = new ArrayList<>();
         exerciseList.add(new NotInitializedFieldsExercise());
         exerciseList.add(new HelloWorldExercise());
@@ -29,18 +44,7 @@ public class Main {
         exerciseList.add(new IncrementableExercise());
         exerciseList.add(new SingleStaticFieldExercise());
         exerciseList.add(new AutoboxingExercise());
-    }
-
-    public static void main(String[] args) {
-        printExercisesDescriptions();
-
-        System.out.print("\nPlease enter an id of exercise to run: ");
-
-        Scanner scan = new Scanner(System.in);
-        String exerciseCode = scan.next();
-        System.out.print("\n\n\n\n\n\n\n");
-
-        runExercise(exerciseCode);
+        exerciseList.add(new CommandLineArgumentsExercise(args));
     }
 
     private static void printExercisesDescriptions() {
