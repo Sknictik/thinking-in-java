@@ -8,6 +8,7 @@ import thinkinginjava.exercise1.NotInitializedFieldsExercise;
 import thinkinginjava.exercise10.CommandLineArgumentsExercise;
 import thinkinginjava.exercise11.AllTheColorsOfTheRainbowExercise;
 import thinkinginjava.exercise12.JavaDocExercise;
+import thinkinginjava.exercise13.JavaDocContinuedExercise;
 import thinkinginjava.exercise2.HelloWorldExercise;
 import thinkinginjava.exercise3.ATypeNameExercise;
 import thinkinginjava.exercise4.DataOnlyExercise;
@@ -49,6 +50,7 @@ public class Main {
         exerciseList.add(new CommandLineArgumentsExercise(args));
         exerciseList.add(new AllTheColorsOfTheRainbowExercise());
         exerciseList.add(new JavaDocExercise());
+        exerciseList.add(new JavaDocContinuedExercise());
     }
 
     private static void printExercisesDescriptions() {
