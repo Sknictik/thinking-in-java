@@ -10,6 +10,7 @@ import thinkinginjava.exercise11.AllTheColorsOfTheRainbowExercise;
 import thinkinginjava.exercise12.JavaDocExercise;
 import thinkinginjava.exercise13.JavaDocContinuedExercise;
 import thinkinginjava.exercise14.JavaDocContinuedHtmlListExercise;
+import thinkinginjava.exercise15.Exercise2JavaDocExercise;
 import thinkinginjava.exercise2.HelloWorldExercise;
 import thinkinginjava.exercise3.ATypeNameExercise;
 import thinkinginjava.exercise4.DataOnlyExercise;
@@ -53,6 +54,7 @@ public class Main {
         exerciseList.add(new JavaDocExercise());
         exerciseList.add(new JavaDocContinuedExercise());
         exerciseList.add(new JavaDocContinuedHtmlListExercise());
+        exerciseList.add(new Exercise2JavaDocExercise());
     }
 
     private static void printExercisesDescriptions() {
