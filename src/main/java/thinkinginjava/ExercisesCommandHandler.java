@@ -12,6 +12,7 @@ public class ExercisesCommandHandler {
     }
 
     public void printExercisesDescriptions() {
+        System.out.println("\n\n");
         for (Exercise exercise : exerciseList) {
             System.out.println("Id: " + exercise.getId());
             System.out.println("Name: " + exercise.getName());

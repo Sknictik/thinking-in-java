@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 import thinkinginjava.block1.EverythingIsAnObjectChapter;
+import thinkinginjava.block2.OpearatorsChapter;
 
 public class Main {
 
@@ -15,10 +16,10 @@ public class Main {
         ChaptersCommandHandler chaptersCommandHandler = new ChaptersCommandHandler(chapterList);
         Scanner scan = new Scanner(System.in);
 
-        runProgramm(chaptersCommandHandler, scan);
+        runProgram(chaptersCommandHandler, scan);
     }
 
-    private static void runProgramm(ChaptersCommandHandler chaptersCommandHandler, Scanner scan) {
+    private static void runProgram(ChaptersCommandHandler chaptersCommandHandler, Scanner scan) {
         chaptersCommandHandler.printChapterList();
 
         Chapter chapter = chaptersCommandHandler.askUserForChapter(scan);
@@ -33,13 +34,14 @@ public class Main {
         if (exercise != null) {
             runExercise(exercise);
         } else {
-            runProgramm(chaptersCommandHandler, scan);
+            runProgram(chaptersCommandHandler, scan);
         }
     }
 
     private static List<Chapter> initChapterList(String[] args) {
         List<Chapter> chapterList = new ArrayList<>();
         chapterList.add(new EverythingIsAnObjectChapter(args));
+        chapterList.add(new OpearatorsChapter());
 
         return chapterList;
     }
