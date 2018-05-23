@@ -7,7 +7,7 @@ public class ChaptersCommandHandler {
 
     private List<Chapter> chapterList;
 
-    public ChaptersCommandHandler(List<Chapter> chapterList) {
+    ChaptersCommandHandler(List<Chapter> chapterList) {
         this.chapterList = chapterList;
     }
 

@@ -7,7 +7,7 @@ public class ExercisesCommandHandler {
 
     private List<Exercise> exerciseList;
 
-    public ExercisesCommandHandler(List<Exercise> exerciseList) {
+    ExercisesCommandHandler(List<Exercise> exerciseList) {
         this.exerciseList = exerciseList;
     }
 
