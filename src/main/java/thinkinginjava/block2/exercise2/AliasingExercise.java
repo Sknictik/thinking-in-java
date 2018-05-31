@@ -1,6 +1,7 @@
 package thinkinginjava.block2.exercise2;
 
 import thinkinginjava.Exercise;
+import thinkinginjava.block2.TestObject;
 
 import static net.mindview.util.Print.print;
 

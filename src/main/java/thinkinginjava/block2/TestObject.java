@@ -1,4 +1,4 @@
-package thinkinginjava.block2.exercise2;
+package thinkinginjava.block2;
 
 public class TestObject {
 
