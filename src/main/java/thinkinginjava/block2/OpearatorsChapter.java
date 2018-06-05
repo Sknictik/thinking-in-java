@@ -11,6 +11,7 @@ import thinkinginjava.block2.exercise3.AliasingInMethodsExercise;
 import thinkinginjava.block2.exercise4.VelocityCalculationExercise;
 import thinkinginjava.block2.exercise5and6.DogsCompareExercise;
 import thinkinginjava.block2.exercise5and6.DogsExercise;
+import thinkinginjava.block2.exercise7.CoinFlipExercise;
 
 public class OpearatorsChapter implements Chapter {
     @Override
@@ -32,6 +33,7 @@ public class OpearatorsChapter implements Chapter {
         exerciseList.add(new VelocityCalculationExercise());
         exerciseList.add(new DogsExercise());
         exerciseList.add(new DogsCompareExercise());
+        exerciseList.add(new CoinFlipExercise());
 
         return exerciseList;
     }
