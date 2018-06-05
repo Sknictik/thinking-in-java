@@ -13,6 +13,7 @@ import thinkinginjava.block2.exercise5and6.DogsCompareExercise;
 import thinkinginjava.block2.exercise5and6.DogsExercise;
 import thinkinginjava.block2.exercise7.CoinFlipExercise;
 import thinkinginjava.block2.exercise8.LongBinaryExercise;
+import thinkinginjava.block2.exercise9.ExponentialNotationExercise;
 
 public class OperatorsChapter implements Chapter {
     @Override
@@ -36,6 +37,7 @@ public class OperatorsChapter implements Chapter {
         exerciseList.add(new DogsCompareExercise());
         exerciseList.add(new CoinFlipExercise());
         exerciseList.add(new LongBinaryExercise());
+        exerciseList.add(new ExponentialNotationExercise());
 
         return exerciseList;
     }
