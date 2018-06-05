@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 import thinkinginjava.block1.EverythingIsAnObjectChapter;
-import thinkinginjava.block2.OpearatorsChapter;
+import thinkinginjava.block2.OperatorsChapter;
 
 public class Main {
 
@@ -41,7 +41,7 @@ public class Main {
     private static List<Chapter> initChapterList(String[] args) {
         List<Chapter> chapterList = new ArrayList<>();
         chapterList.add(new EverythingIsAnObjectChapter(args));
-        chapterList.add(new OpearatorsChapter());
+        chapterList.add(new OperatorsChapter());
 
         return chapterList;
     }

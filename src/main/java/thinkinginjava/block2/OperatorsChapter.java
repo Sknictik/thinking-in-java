@@ -12,8 +12,9 @@ import thinkinginjava.block2.exercise4.VelocityCalculationExercise;
 import thinkinginjava.block2.exercise5and6.DogsCompareExercise;
 import thinkinginjava.block2.exercise5and6.DogsExercise;
 import thinkinginjava.block2.exercise7.CoinFlipExercise;
+import thinkinginjava.block2.exercise8.LongBinaryExercise;
 
-public class OpearatorsChapter implements Chapter {
+public class OperatorsChapter implements Chapter {
     @Override
     public String getId() {
         return "2";
@@ -34,6 +35,7 @@ public class OpearatorsChapter implements Chapter {
         exerciseList.add(new DogsExercise());
         exerciseList.add(new DogsCompareExercise());
         exerciseList.add(new CoinFlipExercise());
+        exerciseList.add(new LongBinaryExercise());
 
         return exerciseList;
     }
