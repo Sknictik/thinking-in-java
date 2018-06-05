@@ -8,6 +8,7 @@ import thinkinginjava.Exercise;
 import thinkinginjava.block2.exercise1.ImportedPrintExercise;
 import thinkinginjava.block2.exercise2.AliasingExercise;
 import thinkinginjava.block2.exercise3.AliasingInMethodsExercise;
+import thinkinginjava.block2.exercise4.VelocityCalculationExercise;
 
 public class OpearatorsChapter implements Chapter {
     @Override
@@ -26,6 +27,7 @@ public class OpearatorsChapter implements Chapter {
         exerciseList.add(new ImportedPrintExercise());
         exerciseList.add(new AliasingExercise());
         exerciseList.add(new AliasingInMethodsExercise());
+        exerciseList.add(new VelocityCalculationExercise());
 
         return exerciseList;
     }
