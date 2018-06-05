@@ -9,6 +9,8 @@ import thinkinginjava.block2.exercise1.ImportedPrintExercise;
 import thinkinginjava.block2.exercise2.AliasingExercise;
 import thinkinginjava.block2.exercise3.AliasingInMethodsExercise;
 import thinkinginjava.block2.exercise4.VelocityCalculationExercise;
+import thinkinginjava.block2.exercise5and6.DogsCompareExercise;
+import thinkinginjava.block2.exercise5and6.DogsExercise;
 
 public class OpearatorsChapter implements Chapter {
     @Override
@@ -28,6 +30,8 @@ public class OpearatorsChapter implements Chapter {
         exerciseList.add(new AliasingExercise());
         exerciseList.add(new AliasingInMethodsExercise());
         exerciseList.add(new VelocityCalculationExercise());
+        exerciseList.add(new DogsExercise());
+        exerciseList.add(new DogsCompareExercise());
 
         return exerciseList;
     }
