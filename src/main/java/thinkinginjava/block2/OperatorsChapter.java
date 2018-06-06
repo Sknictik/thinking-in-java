@@ -6,6 +6,7 @@ import java.util.List;
 import thinkinginjava.Chapter;
 import thinkinginjava.Exercise;
 import thinkinginjava.block2.exercise1.ImportedPrintExercise;
+import thinkinginjava.block2.exercise10.BitwiseOperatorsExercise;
 import thinkinginjava.block2.exercise2.AliasingExercise;
 import thinkinginjava.block2.exercise3.AliasingInMethodsExercise;
 import thinkinginjava.block2.exercise4.VelocityCalculationExercise;
@@ -38,6 +39,7 @@ public class OperatorsChapter implements Chapter {
         exerciseList.add(new CoinFlipExercise());
         exerciseList.add(new LongBinaryExercise());
         exerciseList.add(new ExponentialNotationExercise());
+        exerciseList.add(new BitwiseOperatorsExercise());
 
         return exerciseList;
     }
