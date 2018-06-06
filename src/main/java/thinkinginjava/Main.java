@@ -14,6 +14,7 @@ public class Main {
 
         List<Chapter> chapterList = initChapterList(args);
         ChaptersCommandHandler chaptersCommandHandler = new ChaptersCommandHandler(chapterList);
+
         Scanner scan = new Scanner(System.in);
 
         runProgram(chaptersCommandHandler, scan);

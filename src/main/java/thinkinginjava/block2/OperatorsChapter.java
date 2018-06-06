@@ -2,11 +2,15 @@ package thinkinginjava.block2;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 import thinkinginjava.Chapter;
 import thinkinginjava.Exercise;
 import thinkinginjava.block2.exercise1.ImportedPrintExercise;
 import thinkinginjava.block2.exercise10.BitwiseOperatorsExercise;
+import thinkinginjava.block2.exercise11.RightShiftExercise;
+import thinkinginjava.block2.exercise12.UnsignedRightShiftExercise;
+import thinkinginjava.block2.exercise13.BinaryCharsExercise;
 import thinkinginjava.block2.exercise2.AliasingExercise;
 import thinkinginjava.block2.exercise3.AliasingInMethodsExercise;
 import thinkinginjava.block2.exercise4.VelocityCalculationExercise;
@@ -40,6 +44,9 @@ public class OperatorsChapter implements Chapter {
         exerciseList.add(new LongBinaryExercise());
         exerciseList.add(new ExponentialNotationExercise());
         exerciseList.add(new BitwiseOperatorsExercise());
+        exerciseList.add(new RightShiftExercise());
+        exerciseList.add(new UnsignedRightShiftExercise());
+        exerciseList.add(new BinaryCharsExercise());
 
         return exerciseList;
     }
