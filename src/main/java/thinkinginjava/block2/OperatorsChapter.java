@@ -11,6 +11,7 @@ import thinkinginjava.block2.exercise10.BitwiseOperatorsExercise;
 import thinkinginjava.block2.exercise11.RightShiftExercise;
 import thinkinginjava.block2.exercise12.UnsignedRightShiftExercise;
 import thinkinginjava.block2.exercise13.BinaryCharsExercise;
+import thinkinginjava.block2.exercise14.BooleanStringComparisonsExercise;
 import thinkinginjava.block2.exercise2.AliasingExercise;
 import thinkinginjava.block2.exercise3.AliasingInMethodsExercise;
 import thinkinginjava.block2.exercise4.VelocityCalculationExercise;
@@ -47,6 +48,7 @@ public class OperatorsChapter implements Chapter {
         exerciseList.add(new RightShiftExercise());
         exerciseList.add(new UnsignedRightShiftExercise());
         exerciseList.add(new BinaryCharsExercise());
+        exerciseList.add(new BooleanStringComparisonsExercise());
 
         return exerciseList;
     }
