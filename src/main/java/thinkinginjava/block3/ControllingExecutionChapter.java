@@ -7,6 +7,7 @@ import thinkinginjava.Chapter;
 import thinkinginjava.Exercise;
 import thinkinginjava.block3.exercise1.BasicLoopExercise;
 import thinkinginjava.block3.exercise2.RandomNumbersLoop;
+import thinkinginjava.block3.exercise3.RandomNumbersInfiniteLoop;
 
 public class ControllingExecutionChapter implements Chapter {
     @Override
@@ -24,6 +25,7 @@ public class ControllingExecutionChapter implements Chapter {
         List<Exercise> exerciseList = new ArrayList<>();
         exerciseList.add(new BasicLoopExercise());
         exerciseList.add(new RandomNumbersLoop());
+        exerciseList.add(new RandomNumbersInfiniteLoop());
 
         return exerciseList;
     }
