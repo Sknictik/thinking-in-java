@@ -9,6 +9,8 @@ import thinkinginjava.block3.exercise1.BasicLoopExercise;
 import thinkinginjava.block3.exercise2.RandomNumbersLoop;
 import thinkinginjava.block3.exercise3.RandomNumbersInfiniteLoop;
 import thinkinginjava.block3.exercise4.NestedForLoops;
+import thinkinginjava.block3.exercise5.BitwiseOperatorTernaryDisplay;
+import thinkinginjava.block3.exercise6.ReturnTests;
 
 public class ControllingExecutionChapter implements Chapter {
     @Override
@@ -28,6 +30,8 @@ public class ControllingExecutionChapter implements Chapter {
         exerciseList.add(new RandomNumbersLoop());
         exerciseList.add(new RandomNumbersInfiniteLoop());
         exerciseList.add(new NestedForLoops());
+        exerciseList.add(new BitwiseOperatorTernaryDisplay());
+        exerciseList.add(new ReturnTests());
 
         return exerciseList;
     }

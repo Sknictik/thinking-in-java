@@ -33,7 +33,7 @@ public class BitwiseOperatorsExercise extends Exercise {
     protected void run() {
         int firstNumber = 0xAA;
         int secondNumber = 0x55;
-        print("First number is: " + Integer.toBinaryString(firstNumber));
+        print("First number is:  " + Integer.toBinaryString(firstNumber));
         print("Second number is: " + Integer.toBinaryString(secondNumber));
 
         print("& operation: " + Integer.toBinaryString(firstNumber & secondNumber));
