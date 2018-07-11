@@ -4,7 +4,7 @@ import thinkinginjava.Exercise;
 
 import static net.mindview.util.Print.print;
 
-public class NestedForLoops extends Exercise {
+public class NestedForLoopsExercise extends Exercise {
     @Override
     public String getId() {
         return "4";

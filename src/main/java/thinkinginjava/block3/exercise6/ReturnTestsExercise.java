@@ -6,7 +6,7 @@ import thinkinginjava.Exercise;
 
 import static net.mindview.util.Print.print;
 
-public class ReturnTests extends Exercise {
+public class ReturnTestsExercise extends Exercise {
     @Override
     public String getId() {
         return "6";

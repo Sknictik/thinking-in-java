@@ -6,7 +6,7 @@ import thinkinginjava.Exercise;
 
 import static net.mindview.util.Print.print;
 
-public class RandomNumbersLoop extends Exercise {
+public class RandomNumbersLoopExercise extends Exercise {
     @Override
     public String getId() {
         return "2";

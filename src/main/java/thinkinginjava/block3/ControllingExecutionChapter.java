@@ -6,11 +6,12 @@ import java.util.List;
 import thinkinginjava.Chapter;
 import thinkinginjava.Exercise;
 import thinkinginjava.block3.exercise1.BasicLoopExercise;
-import thinkinginjava.block3.exercise2.RandomNumbersLoop;
-import thinkinginjava.block3.exercise3.RandomNumbersInfiniteLoop;
-import thinkinginjava.block3.exercise4.NestedForLoops;
-import thinkinginjava.block3.exercise5.BitwiseOperatorTernaryDisplay;
-import thinkinginjava.block3.exercise6.ReturnTests;
+import thinkinginjava.block3.exercise2.RandomNumbersLoopExercise;
+import thinkinginjava.block3.exercise3.RandomNumbersInfiniteLoopExercise;
+import thinkinginjava.block3.exercise4.NestedForLoopsExercise;
+import thinkinginjava.block3.exercise5.BitwiseOperatorTernaryDisplayExercise;
+import thinkinginjava.block3.exercise6.ReturnTestsExercise;
+import thinkinginjava.block3.exercise7.BasicLoopWithBreakExercise;
 
 public class ControllingExecutionChapter implements Chapter {
     @Override
@@ -27,11 +28,12 @@ public class ControllingExecutionChapter implements Chapter {
     public List<Exercise> getExerciseList() {
         List<Exercise> exerciseList = new ArrayList<>();
         exerciseList.add(new BasicLoopExercise());
-        exerciseList.add(new RandomNumbersLoop());
-        exerciseList.add(new RandomNumbersInfiniteLoop());
-        exerciseList.add(new NestedForLoops());
-        exerciseList.add(new BitwiseOperatorTernaryDisplay());
-        exerciseList.add(new ReturnTests());
+        exerciseList.add(new RandomNumbersLoopExercise());
+        exerciseList.add(new RandomNumbersInfiniteLoopExercise());
+        exerciseList.add(new NestedForLoopsExercise());
+        exerciseList.add(new BitwiseOperatorTernaryDisplayExercise());
+        exerciseList.add(new ReturnTestsExercise());
+        exerciseList.add(new BasicLoopWithBreakExercise());
 
         return exerciseList;
     }

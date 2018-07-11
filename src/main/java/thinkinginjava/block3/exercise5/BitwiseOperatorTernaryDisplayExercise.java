@@ -4,7 +4,7 @@ import thinkinginjava.Exercise;
 
 import static net.mindview.util.Print.print;
 
-public class BitwiseOperatorTernaryDisplay extends Exercise {
+public class BitwiseOperatorTernaryDisplayExercise extends Exercise {
     @Override
     public String getId() {
         return "5";
