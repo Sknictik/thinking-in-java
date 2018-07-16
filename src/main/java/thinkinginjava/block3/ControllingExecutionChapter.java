@@ -12,6 +12,7 @@ import thinkinginjava.block3.exercise4.NestedForLoopsExercise;
 import thinkinginjava.block3.exercise5.BitwiseOperatorTernaryDisplayExercise;
 import thinkinginjava.block3.exercise6.ReturnTestsExercise;
 import thinkinginjava.block3.exercise7.BasicLoopWithBreakExercise;
+import thinkinginjava.block3.exercise8.SwitchExercise;
 
 public class ControllingExecutionChapter implements Chapter {
     @Override
@@ -34,6 +35,7 @@ public class ControllingExecutionChapter implements Chapter {
         exerciseList.add(new BitwiseOperatorTernaryDisplayExercise());
         exerciseList.add(new ReturnTestsExercise());
         exerciseList.add(new BasicLoopWithBreakExercise());
+        exerciseList.add(new SwitchExercise());
 
         return exerciseList;
     }
