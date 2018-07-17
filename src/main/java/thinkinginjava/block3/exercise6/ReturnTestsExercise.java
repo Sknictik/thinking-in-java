@@ -1,10 +1,9 @@
 package thinkinginjava.block3.exercise6;
 
-import java.util.Scanner;
-
 import thinkinginjava.Exercise;
 
 import static net.mindview.util.Print.print;
+import static thinkinginjava.ScannerUtils.getNumberFromUser;
 
 public class ReturnTestsExercise extends Exercise {
     @Override
@@ -48,22 +47,6 @@ public class ReturnTestsExercise extends Exercise {
         } else {
             print("testval and target are equal");
         }
-    }
-
-    //I think this will fail with stack overflow if there will be too much attempts
-    private int getNumberFromUser() {
-        String input = askForInput();
-        try {
-            return Integer.parseInt(input);
-        } catch (NumberFormatException e) {
-            print("Invalid number provided");
-            return getNumberFromUser();
-        }
-    }
-
-    private String askForInput() {
-        Scanner scan = new Scanner(System.in);
-        return scan.next();
     }
 
     private void test1(int testval, int target, int begin, int end) {
