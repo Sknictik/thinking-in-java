@@ -7,6 +7,7 @@ import java.util.Scanner;
 import thinkinginjava.block1.EverythingIsAnObjectChapter;
 import thinkinginjava.block2.OperatorsChapter;
 import thinkinginjava.block3.ControllingExecutionChapter;
+import thinkinginjava.block4.InitializationAndCleanupChapter;
 
 public class Main {
 
@@ -45,6 +46,7 @@ public class Main {
         chapterList.add(new EverythingIsAnObjectChapter(args));
         chapterList.add(new OperatorsChapter());
         chapterList.add(new ControllingExecutionChapter());
+        chapterList.add(new InitializationAndCleanupChapter());
 
         return chapterList;
     }
