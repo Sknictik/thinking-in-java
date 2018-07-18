@@ -12,6 +12,7 @@ import thinkinginjava.block4.exercise4.OverloadedConstructorExercise;
 import thinkinginjava.block4.exercise5.OverloadedBarksExercise;
 import thinkinginjava.block4.exercise6.OverloadWithArgumentsOrderingExercise;
 import thinkinginjava.block4.exercise7.NoConstructorExercise;
+import thinkinginjava.block4.exercise8.ThisKeywordExercise;
 
 public class InitializationAndCleanupChapter implements Chapter {
     @Override
@@ -35,6 +36,7 @@ public class InitializationAndCleanupChapter implements Chapter {
         exerciseList.add(new OverloadedBarksExercise());
         exerciseList.add(new OverloadWithArgumentsOrderingExercise());
         exerciseList.add(new NoConstructorExercise());
+        exerciseList.add(new ThisKeywordExercise());
 
         return exerciseList;
     }
