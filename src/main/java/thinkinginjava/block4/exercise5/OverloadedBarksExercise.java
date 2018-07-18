@@ -31,6 +31,7 @@ public class OverloadedBarksExercise extends Exercise {
         dog.bark('a');
         dog.bark(1);
         dog.bark((short) 1);
+        dog.bark((byte) 1);
         dog.bark(1L);
         dog.bark(1d);
         dog.bark(1f);
