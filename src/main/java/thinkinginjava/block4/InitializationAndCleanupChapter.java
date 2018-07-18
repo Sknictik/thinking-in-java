@@ -9,6 +9,7 @@ import thinkinginjava.block4.exercise1.UninitializedStringObjectExercise;
 import thinkinginjava.block4.exercise2.InitializedStringObjectExercise;
 import thinkinginjava.block4.exercise3.NoArgConstructorExercise;
 import thinkinginjava.block4.exercise4.OverloadedConstructorExercise;
+import thinkinginjava.block4.exercise5.OverloadedBarksExercise;
 
 public class InitializationAndCleanupChapter implements Chapter {
     @Override
@@ -29,6 +30,7 @@ public class InitializationAndCleanupChapter implements Chapter {
         exerciseList.add(new InitializedStringObjectExercise());
         exerciseList.add(new NoArgConstructorExercise());
         exerciseList.add(new OverloadedConstructorExercise());
+        exerciseList.add(new OverloadedBarksExercise());
 
         return exerciseList;
     }
