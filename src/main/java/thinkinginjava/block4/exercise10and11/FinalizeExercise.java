@@ -1,4 +1,4 @@
-package thinkinginjava.block4.exercise10;
+package thinkinginjava.block4.exercise10and11;
 
 import thinkinginjava.Exercise;
 
@@ -30,8 +30,6 @@ public class FinalizeExercise extends Exercise {
     protected void run() {
         print("Creating an object of class with overriden finalize()");
         new FinalizedClass();
-        print("Calling force gc");
-        System.gc();
-        print("Object should be garbage collected soon...");
+        print("Probably object will not be finalized");
     }
 }
