@@ -6,6 +6,7 @@ import java.util.List;
 import thinkinginjava.Chapter;
 import thinkinginjava.Exercise;
 import thinkinginjava.block4.exercise1.UninitializedStringObjectExercise;
+import thinkinginjava.block4.exercise10.FinalizeExercise;
 import thinkinginjava.block4.exercise2.InitializedStringObjectExercise;
 import thinkinginjava.block4.exercise3.NoArgConstructorExercise;
 import thinkinginjava.block4.exercise4.OverloadedConstructorExercise;
@@ -39,6 +40,7 @@ public class InitializationAndCleanupChapter implements Chapter {
         exerciseList.add(new NoConstructorExercise());
         exerciseList.add(new ThisKeywordExercise());
         exerciseList.add(new ConstructorsCallingConstructorsExercise());
+        exerciseList.add(new FinalizeExercise());
 
         return exerciseList;
     }
