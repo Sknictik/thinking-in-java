@@ -17,7 +17,9 @@ public class AlwaysFinializeExercise extends Exercise {
 
     @Override
     public String getDescription() {
-        return "Modify the previous exercise so that your finalize( ) will always be called.";
+        return "\nExercise 10: Create a class with a finalize( ) method that prints a message. " +
+                "In main( ), create an object of your class. Explain the behavior of your program.\n" +
+                "Exercise 11: Modify the previous exercise so that your finalize( ) will always be called.";
     }
 
     @Override

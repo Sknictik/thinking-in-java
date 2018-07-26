@@ -17,9 +17,11 @@ public class DogsExercise extends Exercise {
 
     @Override
     public String getDescription() {
-        return "Create a class called Dog containing two Strings: name and says. In main( ), " +
+        return "\nExercise 5: Create a class called Dog containing two Strings: name and says. In main( ), " +
                 "create two dog objects with names “spot” (who says, “Ruff!”) " +
-                "and “scruffy” (who says, “Wurf!”). Then display their names and what they say.";
+                "and “scruffy” (who says, “Wurf!”). Then display their names and what they say.\n" +
+                "Exercise 6: Following Exercise 5, create a new Dog reference and assign it to spot’s object." +
+                " Test for comparison using == and equals( ) for all references.";
     }
 
     @Override

@@ -13,6 +13,7 @@ import thinkinginjava.block4.exercise13.StaticInitExercise;
 import thinkinginjava.block4.exercise14.StaticStringExercise;
 import thinkinginjava.block4.exercise15.InstanceInitBlockExercise;
 import thinkinginjava.block4.exercise16.StringArrayExercise;
+import thinkinginjava.block4.exercise17and18.ObjectArrayExercise;
 import thinkinginjava.block4.exercise2.InitializedStringObjectExercise;
 import thinkinginjava.block4.exercise3.NoArgConstructorExercise;
 import thinkinginjava.block4.exercise4.OverloadedConstructorExercise;
@@ -53,6 +54,7 @@ public class InitializationAndCleanupChapter implements Chapter {
         exerciseList.add(new StaticStringExercise());
         exerciseList.add(new InstanceInitBlockExercise());
         exerciseList.add(new StringArrayExercise());
+        exerciseList.add(new ObjectArrayExercise());
 
         return exerciseList;
     }

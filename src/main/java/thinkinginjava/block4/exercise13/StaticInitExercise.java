@@ -46,6 +46,9 @@ public class StaticInitExercise extends Exercise {
                 NoExplicitStatic.run();
                 break;
             }
+            default: {
+                print("Unknown option");
+            }
         }
     }
 }
