@@ -8,6 +8,7 @@ import thinkinginjava.block1.EverythingIsAnObjectChapter;
 import thinkinginjava.block2.OperatorsChapter;
 import thinkinginjava.block3.ControllingExecutionChapter;
 import thinkinginjava.block4.InitializationAndCleanupChapter;
+import thinkinginjava.block5.AccessControlChapter;
 
 public class Main {
 
@@ -47,6 +48,7 @@ public class Main {
         chapterList.add(new OperatorsChapter());
         chapterList.add(new ControllingExecutionChapter());
         chapterList.add(new InitializationAndCleanupChapter(args));
+        chapterList.add(new AccessControlChapter());
 
         return chapterList;
     }
