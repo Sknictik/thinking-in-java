@@ -5,15 +5,21 @@ import java.util.Scanner;
 import static net.mindview.util.Print.print;
 
 public class ScannerUtils {
-    //This will fail with stack overflow if there will be too much attempts
+
     public static int getNumberFromUser() {
-        String input = askForInput();
-        try {
-            return Integer.parseInt(input);
-        } catch (NumberFormatException e) {
-            print("Invalid number provided");
-            return getNumberFromUser();
+        while (true) {
+            String input = askForInput();
+            try {
+                return Integer.parseInt(input);
+            } catch (NumberFormatException e) {
+                print("Invalid number provided");
+            }
         }
+    }
+
+    //No validation. Any String will do.
+    public static String getStringFromUser() {
+        return askForInput();
     }
 
     private static String askForInput() {

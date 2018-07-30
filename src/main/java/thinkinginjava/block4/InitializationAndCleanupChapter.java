@@ -17,6 +17,8 @@ import thinkinginjava.block4.exercise17and18.ObjectArrayExercise;
 import thinkinginjava.block4.exercise19.BasicVarargsExercise;
 import thinkinginjava.block4.exercise2.InitializedStringObjectExercise;
 import thinkinginjava.block4.exercise20.AlternateMainExercise;
+import thinkinginjava.block4.exercise21and22.BasicEnumExercise;
+import thinkinginjava.block4.exercise21and22.EnumSwitchExercise;
 import thinkinginjava.block4.exercise3.NoArgConstructorExercise;
 import thinkinginjava.block4.exercise4.OverloadedConstructorExercise;
 import thinkinginjava.block4.exercise5.OverloadedBarksExercise;
@@ -66,6 +68,8 @@ public class InitializationAndCleanupChapter implements Chapter {
         exerciseList.add(new ObjectArrayExercise());
         exerciseList.add(new BasicVarargsExercise());
         exerciseList.add(new AlternateMainExercise(mainArgs));
+        exerciseList.add(new BasicEnumExercise());
+        exerciseList.add(new EnumSwitchExercise());
 
         return exerciseList;
     }
