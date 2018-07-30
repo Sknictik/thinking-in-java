@@ -6,6 +6,7 @@ import java.util.List;
 import thinkinginjava.Chapter;
 import thinkinginjava.Exercise;
 import thinkinginjava.block5.exercise1.SimplePackageExercise;
+import thinkinginjava.block5.exercise2.PackageCollisionsExercise;
 
 public class AccessControlChapter implements Chapter {
     @Override
@@ -23,6 +24,7 @@ public class AccessControlChapter implements Chapter {
         List<Exercise> exerciseList = new ArrayList<>();
 
         exerciseList.add(new SimplePackageExercise());
+        exerciseList.add(new PackageCollisionsExercise());
 
         return exerciseList;
     }

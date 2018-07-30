@@ -29,6 +29,6 @@ public class SimplePackageExercise extends Exercise {
     @Override
     protected void run() {
         PackageClass packageClass = new PackageClass();
-        print("Created a class outside of that package");
+        print("Created a class outside of it's package");
     }
 }
