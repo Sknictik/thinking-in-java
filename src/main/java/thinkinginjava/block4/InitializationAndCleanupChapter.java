@@ -16,6 +16,7 @@ import thinkinginjava.block4.exercise16.StringArrayExercise;
 import thinkinginjava.block4.exercise17and18.ObjectArrayExercise;
 import thinkinginjava.block4.exercise19.BasicVarargsExercise;
 import thinkinginjava.block4.exercise2.InitializedStringObjectExercise;
+import thinkinginjava.block4.exercise20.AlternateMainExercise;
 import thinkinginjava.block4.exercise3.NoArgConstructorExercise;
 import thinkinginjava.block4.exercise4.OverloadedConstructorExercise;
 import thinkinginjava.block4.exercise5.OverloadedBarksExercise;
@@ -25,6 +26,13 @@ import thinkinginjava.block4.exercise8.ThisKeywordExercise;
 import thinkinginjava.block4.exercise9.ConstructorsCallingConstructorsExercise;
 
 public class InitializationAndCleanupChapter implements Chapter {
+
+    public String[] mainArgs;
+
+    public InitializationAndCleanupChapter(String[] mainArgs) {
+        this.mainArgs = mainArgs;
+    }
+
     @Override
     public String getId() {
         return "4";
@@ -57,6 +65,7 @@ public class InitializationAndCleanupChapter implements Chapter {
         exerciseList.add(new StringArrayExercise());
         exerciseList.add(new ObjectArrayExercise());
         exerciseList.add(new BasicVarargsExercise());
+        exerciseList.add(new AlternateMainExercise(mainArgs));
 
         return exerciseList;
     }

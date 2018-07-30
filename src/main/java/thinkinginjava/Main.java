@@ -46,7 +46,7 @@ public class Main {
         chapterList.add(new EverythingIsAnObjectChapter(args));
         chapterList.add(new OperatorsChapter());
         chapterList.add(new ControllingExecutionChapter());
-        chapterList.add(new InitializationAndCleanupChapter());
+        chapterList.add(new InitializationAndCleanupChapter(args));
 
         return chapterList;
     }
