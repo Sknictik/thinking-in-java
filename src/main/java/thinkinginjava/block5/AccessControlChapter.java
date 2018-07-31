@@ -7,6 +7,7 @@ import thinkinginjava.Chapter;
 import thinkinginjava.Exercise;
 import thinkinginjava.block5.exercise1.SimplePackageExercise;
 import thinkinginjava.block5.exercise2.PackageCollisionsExercise;
+import thinkinginjava.block5.exercise3.StaticImportExercise;
 
 public class AccessControlChapter implements Chapter {
     @Override
@@ -25,6 +26,7 @@ public class AccessControlChapter implements Chapter {
 
         exerciseList.add(new SimplePackageExercise());
         exerciseList.add(new PackageCollisionsExercise());
+        exerciseList.add(new StaticImportExercise());
 
         return exerciseList;
     }
