@@ -8,6 +8,9 @@ import thinkinginjava.Exercise;
 import thinkinginjava.block5.exercise1.SimplePackageExercise;
 import thinkinginjava.block5.exercise2.PackageCollisionsExercise;
 import thinkinginjava.block5.exercise3.StaticImportExercise;
+import thinkinginjava.block5.exercise4.ProtectedAccessExercise;
+import thinkinginjava.block5.exercise5.AccessorsExercise;
+import thinkinginjava.block5.exercise6.ProtectedForInnerClassesExercise;
 
 public class AccessControlChapter implements Chapter {
     @Override
@@ -27,6 +30,9 @@ public class AccessControlChapter implements Chapter {
         exerciseList.add(new SimplePackageExercise());
         exerciseList.add(new PackageCollisionsExercise());
         exerciseList.add(new StaticImportExercise());
+        exerciseList.add(new ProtectedAccessExercise());
+        exerciseList.add(new AccessorsExercise());
+        exerciseList.add(new ProtectedForInnerClassesExercise());
 
         return exerciseList;
     }
