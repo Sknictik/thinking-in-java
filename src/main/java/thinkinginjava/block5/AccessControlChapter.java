@@ -12,6 +12,7 @@ import thinkinginjava.block5.exercise4.ProtectedAccessExercise;
 import thinkinginjava.block5.exercise5.AccessorsExercise;
 import thinkinginjava.block5.exercise6.ProtectedForInnerClassesExercise;
 import thinkinginjava.block5.exercise7.CreatingLibraryExercise;
+import thinkinginjava.block5.exercise8.ObjectPoolExercise;
 
 public class AccessControlChapter implements Chapter {
     @Override
@@ -35,6 +36,7 @@ public class AccessControlChapter implements Chapter {
         exerciseList.add(new AccessorsExercise());
         exerciseList.add(new ProtectedForInnerClassesExercise());
         exerciseList.add(new CreatingLibraryExercise());
+        exerciseList.add(new ObjectPoolExercise());
 
         return exerciseList;
     }
