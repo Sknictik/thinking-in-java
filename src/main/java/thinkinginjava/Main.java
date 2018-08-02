@@ -9,6 +9,7 @@ import thinkinginjava.block2.OperatorsChapter;
 import thinkinginjava.block3.ControllingExecutionChapter;
 import thinkinginjava.block4.InitializationAndCleanupChapter;
 import thinkinginjava.block5.AccessControlChapter;
+import thinkinginjava.block6.ReusingClassesChapter;
 
 public class Main {
 
@@ -49,6 +50,7 @@ public class Main {
         chapterList.add(new ControllingExecutionChapter());
         chapterList.add(new InitializationAndCleanupChapter(args));
         chapterList.add(new AccessControlChapter());
+        chapterList.add(new ReusingClassesChapter());
 
         return chapterList;
     }
