@@ -7,6 +7,7 @@ import thinkinginjava.Chapter;
 import thinkinginjava.Exercise;
 import thinkinginjava.block6.exercise1.SimpleCompositionExercise;
 import thinkinginjava.block6.exercise2.SimpleInheritanceExercise;
+import thinkinginjava.block6.exercise3.InheritanceBaseClassBehaviourExercise;
 
 public class ReusingClassesChapter implements Chapter {
     @Override
@@ -24,6 +25,7 @@ public class ReusingClassesChapter implements Chapter {
         List<Exercise> exerciseList = new ArrayList<>();
         exerciseList.add(new SimpleCompositionExercise());
         exerciseList.add(new SimpleInheritanceExercise());
+        exerciseList.add(new InheritanceBaseClassBehaviourExercise());
 
         return exerciseList;
     }
