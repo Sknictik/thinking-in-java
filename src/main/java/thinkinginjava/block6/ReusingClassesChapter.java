@@ -12,6 +12,7 @@ import thinkinginjava.block6.exercise4.BaseClassConstructorBehaviourExercise;
 import thinkinginjava.block6.exercise5.ExperimentsWithInheritanceAndCompositionExercise;
 import thinkinginjava.block6.exercise6.ChessExercise;
 import thinkinginjava.block6.exercise7.BaseClassConstructorsExercise;
+import thinkinginjava.block6.exercise8.InheritanceAndConstructorsExercise;
 
 public class ReusingClassesChapter implements Chapter {
     @Override
@@ -34,6 +35,7 @@ public class ReusingClassesChapter implements Chapter {
         exerciseList.add(new ExperimentsWithInheritanceAndCompositionExercise());
         exerciseList.add(new ChessExercise());
         exerciseList.add(new BaseClassConstructorsExercise());
+        exerciseList.add(new InheritanceAndConstructorsExercise());
 
         return exerciseList;
     }
