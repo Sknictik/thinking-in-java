@@ -1,4 +1,4 @@
-package thinkinginjava.block6.exercise9;
+package thinkinginjava.block6.exercise10;
 
 import static net.mindview.util.Print.print;
 
@@ -11,10 +11,11 @@ class Stem extends Root {
     private Component2 component2;
     private Component3 component3;
 
-    Stem() {
-        print("Default stem constructor");
-        component1 = new Component1();
-        component2 = new Component2();
-        component3 = new Component3();
+    Stem(String arg) {
+        super(arg);
+        print("Non-default stem constructor");
+        component1 = new Component1(arg);
+        component2 = new Component2(arg);
+        component3 = new Component3(arg);
     }
 }

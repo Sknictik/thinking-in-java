@@ -6,6 +6,7 @@ import java.util.List;
 import thinkinginjava.Chapter;
 import thinkinginjava.Exercise;
 import thinkinginjava.block6.exercise1.SimpleCompositionExercise;
+import thinkinginjava.block6.exercise10.InheritanceWithNonDefaultConstructorsExercise;
 import thinkinginjava.block6.exercise2.SimpleInheritanceExercise;
 import thinkinginjava.block6.exercise3.BaseClassConstructorGeneration;
 import thinkinginjava.block6.exercise4.BaseClassConstructorBehaviourExercise;
@@ -38,6 +39,7 @@ public class ReusingClassesChapter implements Chapter {
         exerciseList.add(new BaseClassConstructorsExercise());
         exerciseList.add(new InheritanceAndConstructorsExercise());
         exerciseList.add(new InheritanceExercise());
+        exerciseList.add(new InheritanceWithNonDefaultConstructorsExercise());
 
         return exerciseList;
     }

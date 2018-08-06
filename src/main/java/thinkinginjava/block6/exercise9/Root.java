@@ -2,7 +2,7 @@ package thinkinginjava.block6.exercise9;
 
 import static net.mindview.util.Print.print;
 
-public class Root {
+class Root {
 
     private Component1 component1;
     private Component2 component2;
