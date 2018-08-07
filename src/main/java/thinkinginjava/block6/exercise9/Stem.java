@@ -5,7 +5,7 @@ import static net.mindview.util.Print.print;
 class Stem extends Root {
 
     //There are actually 6 instances of component in this class.
-    //Three is this class and other three in root.
+    //Three in this class and other three in root.
     //It's just that root ones are hidden behind stem components.
     private Component1 component1;
     private Component2 component2;
