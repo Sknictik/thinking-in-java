@@ -10,6 +10,7 @@ import thinkinginjava.block6.exercise10.InheritanceWithNonDefaultConstructorsExe
 import thinkinginjava.block6.exercise11.DelegationExercise;
 import thinkinginjava.block6.exercise12.CleaningUpExercise;
 import thinkinginjava.block6.exercise13.OverloadingExercise;
+import thinkinginjava.block6.exercise14.CompositionVsInheritanceExercise;
 import thinkinginjava.block6.exercise2.SimpleInheritanceExercise;
 import thinkinginjava.block6.exercise3.BaseClassConstructorGeneration;
 import thinkinginjava.block6.exercise4.BaseClassConstructorBehaviourExercise;
@@ -46,6 +47,7 @@ public class ReusingClassesChapter implements Chapter {
         exerciseList.add(new DelegationExercise());
         exerciseList.add(new CleaningUpExercise());
         exerciseList.add(new OverloadingExercise());
+        exerciseList.add(new CompositionVsInheritanceExercise());
 
         return exerciseList;
     }

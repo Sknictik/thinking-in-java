@@ -1,7 +1,5 @@
 package thinkinginjava.block6.exercise2;
 
-import reusing.Detergent;
-
 import static net.mindview.util.Print.print;
 
 public class DetergentChild extends Detergent {

@@ -1,6 +1,5 @@
 package thinkinginjava.block6.exercise6;
 
-import reusing.Chess;
 import thinkinginjava.Exercise;
 
 public class ChessExercise extends Exercise {

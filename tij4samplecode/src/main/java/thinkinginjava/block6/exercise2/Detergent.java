@@ -1,4 +1,4 @@
-package reusing;//: reusing/Detergent.java
+package thinkinginjava.block6.exercise2;//: reusing/Detergent.java
 // Inheritance syntax & properties.
 import static net.mindview.util.Print.*;
 
