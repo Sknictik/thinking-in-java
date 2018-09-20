@@ -14,6 +14,7 @@ import thinkinginjava.block6.exercise14.CompositionVsInheritanceExercise;
 import thinkinginjava.block6.exercise15.ProtectedExercise;
 import thinkinginjava.block6.exercise16and17.BasicInheritanceExercise;
 import thinkinginjava.block6.exercise16and17.InheritanceAndOverridingExercise;
+import thinkinginjava.block6.exercise18.ExerciseWithFinals;
 import thinkinginjava.block6.exercise2.SimpleInheritanceExercise;
 import thinkinginjava.block6.exercise3.BaseClassConstructorGeneration;
 import thinkinginjava.block6.exercise4.BaseClassConstructorBehaviourExercise;
@@ -54,6 +55,7 @@ public class ReusingClassesChapter implements Chapter {
         exerciseList.add(new ProtectedExercise());
         exerciseList.add(new BasicInheritanceExercise());
         exerciseList.add(new InheritanceAndOverridingExercise());
+        exerciseList.add(new ExerciseWithFinals());
 
         return exerciseList;
     }
